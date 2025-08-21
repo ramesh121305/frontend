@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-export default function useFetchMenu(url = "https://foodexpresswebsite-2.onrender.com/api/menu") {
+export default function useFetchMenu(url = "https://backend-ooew.onrender.com/api/menu") {
   const [menu, setMenu] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
