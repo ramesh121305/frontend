@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiClient = axios.create({
-  baseURL: "https://foodexpresswebsite-2.onrender.com/api",  // ✅ correct backend
+  baseURL: "https://backend-ooew.onrender.com/api",  // ✅ correct backend
   headers: { "Content-Type": "application/json" },
 });
 
