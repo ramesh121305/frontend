@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api/orders", // your backend URL
+  baseURL: "https://backend-ooew.onrender.com/api/orders", // your backend URL
 });
 
 // attach token automatically
