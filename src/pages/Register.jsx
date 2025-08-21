@@ -18,7 +18,7 @@ export default function Register() {
     setLoading(true);
 
     try {
-      await apiClient.post('users/register', { name, email, password });
+      await apiClient.post('/users/register', { name, email, password });
       navigate('/login'); // go to login after successful registration
     } catch (err) {
       setError(err?.response?.data?.message || err?.message || 'Registration failed');
